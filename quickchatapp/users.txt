@@ -1,0 +1,7 @@
+Ma_2,NeoModise#2006,+27686979001,Neo,Modise
+ma_3,AsemahleMyeni#2006,+27677875914,Mahle,Myeni
+Ma_1,Mahlease#2006,+27677875914,mahle,myeni3
+mama_,Mamaismama#1,+27677875914,mahle,mahle
+Neo_1,BlueBirds16#,+27686979001,Neo,Modise
+Neo_2,NeoModise#16,+27677875914,Neo,Modise
+Ma_0,Makeke#0,+27720006001,Cakes,Makeke

@@ -1,0 +1,28 @@
+{"sender":"user1","messageNum":1,"subject":"subj1","recipient":"rec1","content":"content1"}
+{"sender":"user2","messageNum":2,"subject":"subj2","recipient":"rec2","content":"content2"}
+{"sender":"testUser","messageNum":1,"subject":"Test Subject","recipient":"recipient@test.com","content":"Test message content"}
+{"sender":"","messageNum":1,"subject":"","recipient":"","content":""}
+{"sender":"testUser","messageNum":1,"subject":"Test: Special Characters & Symbols","recipient":"test@example.com","content":"Hello! @#$%^&*()_+ Testing 123"}
+{"sender":"user1","messageNum":1,"subject":"subj1","recipient":"rec1","content":"content1"}
+{"sender":"user2","messageNum":2,"subject":"subj2","recipient":"rec2","content":"content2"}
+1,user1,rec1,subj1,content1
+2,user2,rec2,subj2,content2
+1,testUser,recipient@test.com,Test Subject,Test message content
+1,,,,
+1,testUser,test@example.com,Test: Special Characters & Symbols,Hello! @#$%^&*()_+ Testing 123
+1,user1,rec1,subj1,content1
+2,user2,rec2,subj2,content2
+1,user1,rec1,subj1,content1
+2,user2,rec2,subj2,content2
+1,testUser,recipient@test.com,Test Subject,Test message content
+1,,,,
+1,testUser,test@example.com,Test: Special Characters & Symbols,Hello! @#$%^&*()_+ Testing 123
+1,user1,rec1,subj1,content1
+2,user2,rec2,subj2,content2
+1,user1,rec1,subj1,content1
+2,user2,rec2,subj2,content2
+1,testUser,recipient@test.com,Test Subject,Test message content
+1,,,,
+1,testUser,test@example.com,Test: Special Characters & Symbols,Hello! @#$%^&*()_+ Testing 123
+1,user1,rec1,subj1,content1
+2,user2,rec2,subj2,content2
