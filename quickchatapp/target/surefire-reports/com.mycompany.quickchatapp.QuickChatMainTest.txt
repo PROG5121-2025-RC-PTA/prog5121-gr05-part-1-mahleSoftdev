@@ -1,4 +1,44 @@
 -------------------------------------------------------------------------------
 Test set: com.mycompany.quickchatapp.QuickChatMainTest
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.388 s -- in com.mycompany.quickchatapp.QuickChatMainTest
+Tests run: 8, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.339 s <<< FAILURE! -- in com.mycompany.quickchatapp.QuickChatMainTest
+com.mycompany.quickchatapp.QuickChatMainTest.testSaveMessageMultiple -- Time elapsed: 0.032 s <<< ERROR!
+java.lang.NoSuchMethodException: com.mycompany.quickchatapp.QuickChatMain.saveMessage(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2907)
+	at com.mycompany.quickchatapp.QuickChatMainTest.testSaveMessageMultiple(QuickChatMainTest.java:82)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+
+com.mycompany.quickchatapp.QuickChatMainTest.testSaveMessage -- Time elapsed: 0.017 s <<< ERROR!
+java.lang.NoSuchMethodException: com.mycompany.quickchatapp.QuickChatMain.saveMessage(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2907)
+	at com.mycompany.quickchatapp.QuickChatMainTest.testSaveMessage(QuickChatMainTest.java:48)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+
+com.mycompany.quickchatapp.QuickChatMainTest.testSaveMessageWithEmptyStrings -- Time elapsed: 0.034 s <<< ERROR!
+java.lang.NoSuchMethodException: com.mycompany.quickchatapp.QuickChatMain.saveMessage(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2907)
+	at com.mycompany.quickchatapp.QuickChatMainTest.testSaveMessageWithEmptyStrings(QuickChatMainTest.java:128)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+
+com.mycompany.quickchatapp.QuickChatMainTest.testSaveMessageWithSpecialCharacters -- Time elapsed: 0.020 s <<< ERROR!
+java.lang.NoSuchMethodException: com.mycompany.quickchatapp.QuickChatMain.saveMessage(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2907)
+	at com.mycompany.quickchatapp.QuickChatMainTest.testSaveMessageWithSpecialCharacters(QuickChatMainTest.java:106)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+
+com.mycompany.quickchatapp.QuickChatMainTest.testFileAppendFunctionality -- Time elapsed: 0.011 s <<< ERROR!
+java.lang.NoSuchMethodException: com.mycompany.quickchatapp.QuickChatMain.saveMessage(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2907)
+	at com.mycompany.quickchatapp.QuickChatMainTest.testFileAppendFunctionality(QuickChatMainTest.java:158)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+

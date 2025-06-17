@@ -58,6 +58,12 @@
             <version>5.10.3</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>biz.aQute.bnd</groupId>
+            <artifactId>bnd-baseline-maven-plugin</artifactId>
+            <version>7.1.0</version>
+            <type>maven-plugin</type>
+        </dependency>
     </dependencies>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

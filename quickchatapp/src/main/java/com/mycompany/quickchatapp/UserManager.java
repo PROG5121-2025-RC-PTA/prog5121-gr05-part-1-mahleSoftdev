@@ -18,7 +18,7 @@ public class UserManager {
 
     /**
      * Handle user registration process
-     * @return true if registration successful and user wants to login, false otherwise
+     * @return true if registration successful 0and user wants to login, false otherwise
      */
     public static boolean handleRegistration() {
         JOptionPane.showMessageDialog(null, "=== Sign Up ===");
